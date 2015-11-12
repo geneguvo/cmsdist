@@ -14,6 +14,10 @@ Requires: py2-cx-oracle yui rotatelogs couchdb py2-cjson py2-sphinx py2-pycurl
 %prep
 %setup -b 0 -n %n
 
+
+
+
+
 %build
 python setup.py build_system -s reqmgr
 
